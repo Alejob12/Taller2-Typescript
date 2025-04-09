@@ -1,0 +1,48 @@
+body {
+    background-color: #ffffff;
+}
+
+.titulo-principal {
+    color: #343a40;
+}
+
+.serie-fila {
+    cursor: pointer;
+}
+
+.serie-fila:hover {
+    background-color: #f2f2f2;
+}
+
+#serie-detalle {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#serie-detalle img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.table a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.table a:hover {
+    text-decoration: underline;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
